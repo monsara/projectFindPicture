@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Roboto&amp;subset=cyrillic"
+    rel="stylesheet">
+  <title>FindPicture</title>
+<link href="styles.css?ca623443ca08f1cf6dce" rel="stylesheet"></head>
+
+<body>
+  <header class="header">
+      <button class="header__favorites js-favourites"><span class="header-star">&#x2605;</span>Избранное</button>
+      <a href="#" class="header__logo"><img src="./img/logo.png" alt="logo"></a>
+  </header>
+
+  <main class="main">
+    <section class="picture">
+      <div class="wrapper">
+          <form action="#" class="header__form js-form">
+              <input type="text" autofocus class="form__input js-input" placeholder="Что вы хотите найти?">
+              <button class="form__btn btn">Поиск</button>
+            </form>
+        <ul class="picture__list">
+        </ul>
+        <button class="show-more btn js-more" hidden>Показать еще</button>
+      </div>
+    </section>
+    <section class="favorites">
+      <div class="wrapper">
+        <h2 class="favorites__title">Избранное</h2>
+        <ul class="favorites__list picture__list">
+        </ul>
+      </div>
+    </section>
+    <div class="modal-backdrop">
+      <div class="modal">
+        <img class="modal__img" src="#" alt="#">
+        <ul class="modal__list">
+          <li class="modal__item"> <button class="modal__prev js-prev"></button>
+          </li>
+          <li class="modal__item"> <button class="modal__next js-next"></button>
+          </li>
+          <li class="modal__item"> <button class="modal__select js-select"></button>
+          </li>
+          <li class="modal__item"> <button class="modal__close js-close"></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+<script type="text/javascript" src="main.js?ca623443ca08f1cf6dce"></script></body>
+
+</html>
